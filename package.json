@@ -1,0 +1,30 @@
+{
+  "name": "ojp-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Swiss public transport via OJP 2.0 (opentransportdata.swiss)",
+  "type": "module",
+  "bin": {
+    "ojp-mcp": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3orn/ojp-mcp.git"
+  },
+  "homepage": "https://github.com/d3orn/ojp-mcp#readme",
+  "bugs": "https://github.com/d3orn/ojp-mcp/issues",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "fast-xml-parser": "^5.11.2",
+    "zod": "^4.6.7"
+  }
+}
